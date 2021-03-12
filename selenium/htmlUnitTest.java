@@ -22,7 +22,7 @@ public class htmlUnitTest {
 		// This code will test and print the page title
 		String pageTitle = driver.getTitle();
 		Assert.assertNotEquals(pageTitle, "");
-		Assert.assertFalse(pageTitle.matches("^\\s*$")); // uses regexp
+		//Assert.assertFalse(pageTitle.matches("^\\s*$")); // uses regexp
 		System.out.println("Page title is: " + pageTitle);
 
 		// This code will check the HTML source for Jekyll 404 errors
